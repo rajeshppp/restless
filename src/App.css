@@ -1,0 +1,199 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  /* this makes sure the padding and the border is included in the box sizing */
+  box-sizing: border-box;
+}
+iframe {
+  display: none;
+}
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tableWrapper-123 {
+  flex: none !important;
+  overflow: scroll !important;
+  height: 400px !important;
+  position: inherit !important;
+}
+
+/* .check-221,.checkCell-203, .cellIsCheck-154{
+  display: none !important;
+} */
+#check input[type="checkbox"] {
+  display: none !important;
+}
+
+/************* LeftManuBar **********************/
+
+.rs-sidenav-collapse-out .rs-dropdown .rs-dropdown-toggle,
+.rs-sidenav-collapse-out .rs-sidenav-item {
+  padding-left: 0 !important;
+  height: 44px !important;
+  padding-right: 0 !important;
+}
+
+.rs-sidenav-body {
+  border: 1px solid #000;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.rs-sidenav-default.rs-sidenav-collapse-in
+  .rs-sidenav-item.rs-sidenav-item-active {
+  background-color: rgb(77, 20, 140) !important;
+  color: white !important;
+}
+
+.rs-sidenav-default .rs-sidenav-item:hover {
+  background-color: rgb(77, 20, 140) !important;
+  color: white !important;
+}
+
+.rs-sidenav-item p {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.rs-sidenav-default .rs-sidenav-item.rs-sidenav-item-active {
+  color: rgb(77, 20, 140) !important;
+}
+
+.rs-sidenav-default .rs-sidenav-item {
+  background-color: #fff !important;
+}
+
+.rs-sidenav-nav > .rs-sidenav-item {
+  padding-left: 0 !important;
+}
+
+#map {
+  min-width: 0;
+  flex: 1;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+main {
+  padding: 10px;
+}
+@media only screen and (min-width: 480px) {
+  .Header-left-content span {
+    font-size: 10px;
+    padding-right: 4px;
+  }
+}
+
+/* Table Css */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px !important;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.css-149 {
+  margin-top: 10px !important;
+}
+
+.root-132 {
+  background-color: rgb(77, 20, 140) !important;
+}
+
+.tableTitle-110 {
+  margin-left: 10px !important;
+}
+
+.deleteButton {
+  background-color: rgb(77, 20, 140) !important;
+  color: #fff;
+  width: 45px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.p-popup {
+  padding-bottom: 5px;
+}
+
+.ol-popup {
+  position: relative;
+  background-color: white;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 0;
+  left: 35px;
+  min-width: 112px;
+  top: 34px;
+  text-align: center;
+}
+
+.ol-popup:after,
+.ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+
+.ol-popup-closer:after {
+  content: "✖";
+}
+
+.Popup_btn {
+  background: rgb(77, 20, 140);
+  color: #ffff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
